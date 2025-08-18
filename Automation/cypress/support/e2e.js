@@ -1,3 +1,4 @@
+
 // ***********************************************************
 // This example support/e2e.js is processed and
 // loaded automatically before your test files.
@@ -14,14 +15,4 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
-Cypress.on('uncaught:exception', (err, runnable) => {
-  if (err.message.includes('ResizeObserver loop')) {
-    return false; // prevent test failure
-  }
-});
-Cypress.on('uncaught:exception', (err, runnable) => {
-  if (err.message.includes("showPicker")) {
-    return false; // prevents the test from failing
-  }
-});
+import './commands';
