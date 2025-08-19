@@ -55,10 +55,6 @@ Sample automation scripts demonstrating:
 Cypress project on office managment system 
 
 
-📊 Test Documentation
-
-📁 docs/
-
 
  Contact
 
